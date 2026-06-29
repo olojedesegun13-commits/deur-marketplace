@@ -1,0 +1,27 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="30" y1="178" x2="186" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d4148e"/>
+      <stop offset="0.25" stop-color="#f97316"/>
+      <stop offset="0.5" stop-color="#22c55e"/>
+      <stop offset="0.75" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="72" y1="126" x2="165" y2="126" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb"/>
+      <stop offset="0.35" stop-color="#d4148e"/>
+      <stop offset="0.7" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="s" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="220" height="220" rx="44" fill="#fffdf7"/>
+  <g filter="url(#s)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M51 172V52L162 25C171 23 180 30 180 40V156C180 163 176 169 170 172L51 195V172Z" stroke="url(#g)" stroke-width="9"/>
+    <path d="M51 52L146 77C153 79 158 85 158 93V174" stroke="url(#g)" stroke-width="9"/>
+    <path d="M111 151C88 151 70 134 70 112C70 90 88 73 111 73C134 73 152 90 152 112V151" stroke="url(#g2)" stroke-width="10"/>
+    <path d="M112 131C101 131 92 122 92 112C92 101 101 93 112 93C123 93 132 101 132 112C132 122 123 131 112 131Z" stroke="url(#g2)" stroke-width="10"/>
+  </g>
+</svg>
